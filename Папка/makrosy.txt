@@ -1,0 +1,143 @@
+Sub Вставка_лаба8()
+'
+' Вставка_лаба8 Макрос
+'
+' Сочетание клавиш: Ctrl+Х
+'
+    Range("A1:D1").Select
+    ActiveCell.FormulaR1C1 = "Лабораторная работа №8"
+    Range("A2:D2").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("A2:D2").Select
+    With Selection
+        .HorizontalAlignment = xlLeft
+        .VerticalAlignment = xlBottom
+        .WrapText = False
+        .Orientation = 0
+        .AddIndent = False
+        .IndentLevel = 0
+        .ShrinkToFit = False
+        .ReadingOrder = xlContext
+        .MergeCells = True
+    End With
+    Range("A2:D2").Select
+    ActiveCell.FormulaR1C1 = """"""
+    Range("A2:D2").Select
+    ActiveCell.FormulaR1C1 = """Сортировка данных. Использование фильтров"""
+    Range("A1:D1").Select
+End Sub
+Sub Вставка_лаба9()
+'
+' Вставка_лаба9 Макрос
+'
+' Сочетание клавиш: Ctrl+Э
+'
+    Range("A1:D1").Select
+    ActiveCell.FormulaR1C1 = "Лабораторная работа №9"
+    Range("A2:D2").Select
+    With Selection
+        .HorizontalAlignment = xlLeft
+        .VerticalAlignment = xlBottom
+        .WrapText = False
+        .Orientation = 0
+        .AddIndent = False
+        .IndentLevel = 0
+        .ShrinkToFit = False
+        .ReadingOrder = xlContext
+        .MergeCells = True
+    End With
+    Range("A2:D2").Select
+    ActiveCell.FormulaR1C1 = "Использование функций"""
+    Range("A2:D2").Select
+    ActiveCell.FormulaR1C1 = """Использование функций"""
+    Range("A1:D1").Select
+End Sub
+Sub Вставка_названия_в_конце()
+'
+' Вставка_названия_в_конце Макрос
+'
+' Сочетание клавиш: Ctrl+Ш
+'
+    Range("A21:D21").Select
+    Selection.Merge
+    Range("A22:D22").Select
+    Selection.Merge
+    Range("A21:D21").Select
+    ActiveCell.FormulaR1C1 = "Лабораторная работа №11"
+    Range("A22:D22").Select
+    ActiveCell.FormulaR1C1 = """"""
+    Range("A22:D22").Select
+    ActiveCell.FormulaR1C1 = """Сводные таблицы. Построение диаграмм"""
+    Range("A21:D21").Select
+End Sub
+Sub Вставка_лаба10()
+'
+' Вставка_лаба10 Макрос
+'
+
+'
+    Range("A21:D21").Select
+    ActiveCell.FormulaR1C1 = "Лабораторная работа №10"
+    Range("A22:D22").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("A22:D22").Select
+    ActiveCell.FormulaR1C1 = """Сводные таблицы. Построение диаграмм"""
+    Range("A21:D21").Select
+End Sub
+
+Sub Вставка_названия_в_начале()
+'
+' Вставка_названия_в_начале Макрос
+'
+
+'
+    Rows("1:1").Select
+    Selection.Insert Shift:=xlDown, CopyOrigin:=xlFormatFromLeftOrAbove
+    Rows("2:2").Select
+    Selection.Insert Shift:=xlDown, CopyOrigin:=xlFormatFromLeftOrAbove
+    Range("A1:D1").Select
+    Selection.Merge
+    Range("A2:D2").Select
+    With Selection
+        .HorizontalAlignment = xlCenter
+        .VerticalAlignment = xlBottom
+        .WrapText = False
+        .Orientation = 0
+        .AddIndent = False
+        .IndentLevel = 0
+        .ShrinkToFit = False
+        .ReadingOrder = xlContext
+        .MergeCells = False
+    End With
+    Selection.Merge
+    Range("A1:D1").Select
+    ActiveCell.FormulaR1C1 = "Лабораторная работа №"
+    Range("A2:D2").Select
+End Sub
+Sub Вставка_лаба7()
+'
+' Вставка_лаба7 Макрос
+'
+' Сочетание клавиш: Ctrl+Shift+O
+'
+    Range("A1:D1").Select
+    ActiveCell.FormulaR1C1 = "Лабораторная работа №7"
+    Range("A2:D2").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("A2:D2").Select
+    With Selection
+        .HorizontalAlignment = xlLeft
+        .VerticalAlignment = xlBottom
+        .WrapText = False
+        .Orientation = 0
+        .AddIndent = False
+        .IndentLevel = 0
+        .ShrinkToFit = False
+        .ReadingOrder = xlContext
+        .MergeCells = True
+    End With
+    Range("A2:D2").Select
+    ActiveCell.FormulaR1C1 = """Ввод, редактирование и форматирование данных"""
+    Range("A1:D1").Select
+End Sub
+
